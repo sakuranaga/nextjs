@@ -1,13 +1,7 @@
-import Shrines from "./Shrines"
-import { QueryClient, QueryClientProvider } from 'react-query';
-
-const queryClient = new QueryClient();
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <Shrines />
-    </QueryClientProvider>
+	<h1>hoge</h1>
   );
 }
 
