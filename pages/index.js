@@ -16,10 +16,6 @@ export default function Home() {
                     content="width=device-width, initial-scale=1"
                 />
                 <link rel="shortcut icon" href="/favicon.ico" />
-                <link
-                    rel="stylesheet"
-                    href="https://unpkg.com/ress/dist/ress.min.css"
-                />
             </Head>
             <header id="header" className="wrapper">
                 <h1 className="site-title">
