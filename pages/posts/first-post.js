@@ -3,6 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Layout from '../../components/layout';
 import Hoge from '../../components/hoge';
+import Chakura from '../../components/chakura';
 
 export default function FirstPost() {
     return (
@@ -22,8 +23,9 @@ export default function FirstPost() {
                 width={200} // Desired size with correct aspect ratio
                 alt="Your Name"
             />
-                    <Hoge />
+                    <Hoge card_name="あああああ" card_description="どｆじょ；ｓぢｆじゃｐｓｄ；おふぃじゃ；ｓどふぃじゃ；ｓどふぃじゃ；しお"/>
         <Layout>aaaaa</Layout>
+<Chakura></Chakura>
         </>
 
     );
