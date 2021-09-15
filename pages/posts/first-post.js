@@ -2,10 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import Layout from '../../components/layout';
+import Hoge from '../../components/hoge';
 
 export default function FirstPost() {
     return (
-        <Layout>
+        <>
             <Head>
                 <title>First Post</title>
             </Head>
@@ -21,6 +22,9 @@ export default function FirstPost() {
                 width={200} // Desired size with correct aspect ratio
                 alt="Your Name"
             />
-        </Layout>
+                    <Hoge />
+        <Layout>aaaaa</Layout>
+        </>
+
     );
 }
